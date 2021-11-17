@@ -40,7 +40,7 @@ jobs:
       - name: Checkout do repositório
         uses: actions/checkout@v2
       - name: Imprime o Hello World na tela
-      - run: echo Hello World Windows Rorld
+        run: echo Hello World Windows Rorld
         
   job3:
     runs-on : ubuntu-latest

@@ -47,7 +47,7 @@ jobs:
     needs: [job1,job2]
     steps:
       - name: Imprima Hello World novamente
-        run: Echo Hello World Final
+        run: echo Hello World Final
         
     
     

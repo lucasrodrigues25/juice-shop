@@ -43,12 +43,11 @@ jobs:
         run: echo Hello World Windows Rorld
         
   job3:
-    runs-on : ubuntu-latest
+    runs-on: ubuntu-latest
     needs: [job1,job2]
     steps:
       - name: Imprima Hello World novamente
-        uses: actions/checkout@v2
-      - run: Echo Hello World Final
+        run: Echo Hello World Final
         
     
     

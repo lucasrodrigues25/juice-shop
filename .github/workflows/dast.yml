@@ -29,5 +29,5 @@ jobs:
         with:
           target: 'https://preview.owasp-juice.shop'
           rules_file_name: '.zap/rules.tsv'
-          cmd_option: '-a -j'
+          cmd_options: '-a -j'
 
